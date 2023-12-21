@@ -1,0 +1,769 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Skillup IT Academy</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    </link>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"
+        integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+    <div id="progress-container">
+        <div id="progress-bar"></div>
+    </div>
+    <div class="scrollable-content">
+        <a href="#nav" class="top-button" id="topButton">
+            <i class="fa-solid fa-arrow-up"></i>
+        </a>
+        <div id="nav" class="nav-container">
+            <div class="nav">
+                <div class="nav-phone">
+                    <i class="fa-solid fa-phone"></i>
+                    <div>7208581498</div>
+                </div>
+                <div class="nav-social">
+                    <div class="nav_social_box fa-brands fa-facebook-f"></div>
+                    <div class="nav_social_box1 fa-brands fa-google-plus-g"></div>
+                </div>
+            </div>
+        </div>
+        <div id="nav2" class="nav2-container">
+            <div class="nav2">
+                <div class="nav2-logo">
+                    <div><img src="logo.png" /></div>
+                    <div>Microsoft Official Partner</div>
+                </div>
+                <div class="nav2-login">
+                    <div id="loginBtn" class="login-container">LOGIN</div>
+                    <div class="menu">
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="nav2-overlay" id="loginOverlay">
+            <div class="nav2-loginForm">
+                <div class="nav2-closeBtn" id="closeBtn">
+                    <i class="fa-solid fa-xmark"></i>
+                </div>
+                <form>
+                    <div class="nav2-form-head">Please Enter Your Credentials</div>
+                    <label for="username">Username:</label>
+                    <input type="text" id="username" name="username" required
+                        placeholder="Please Enter Your Username" />
+                    <br>
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" name="password" required placeholder="Enter Password" />
+                    <br>
+                    <!-- <input id="submitBtn" type="submit" value="Submit"> -->
+                    <div class="nav2-form-login">
+                        <input type="Submit" id="submitBtn" class="login-form-container" placeholder="LOGIN" />
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <!-- PART 3 SWIPER -->
+        <div class="p3-swiper-container">
+            <div class="p3-swiper-overlay">
+                <p class="image-text"><span class="pink">Skill</span>
+                    <span class="blue">Up</span>
+                    <span class="pink">IT</span>
+                    <span class="blue">Academy</span>
+                </p>
+                <div class="p3-sT">University, College, School Syllabus Education</div>
+                <div class="p3-login" id="submitBtn1">
+                    <div class="login-form-container">ENQUIRE NOW</div>
+                </div>
+                
+            </div>
+            <img src="slider_bg_1.jpg" class="p3-swiper-image" id="image 1" />
+
+            <div class="p3-swiper-overlay">
+                <p class="image-text"><span class="pink">Skill</span>
+                    <span class="blue">Up</span>
+                    <span class="pink">IT</span>
+                    <span class="blue">Academy</span>
+                </p>
+                <div class="p3-sT">University, College, School Syllabus Education</div>
+                <div class="p3-login" id="submitBtn2">
+                    <div class="login-form-container">ENQUIRE NOW</div>
+                </div>
+                <div class="nav2-overlay" id="loginOverlay1">
+                    <div class="nav2-loginForm">
+                        <div class="nav2-closeBtn" id="closeBtn1">
+                            <i class="fa-solid fa-xmark"></i>
+                        </div>
+                        <form>
+                            <div class="nav2-form-head">Please Let Us Know Your Query</div>
+                            <label for="query">Query:</label>
+                            <input type="text" id="query" name="query" required
+                                placeholder="Please Enter Your Query" />
+                            <br>
+                            <div class="nav2-form-login">
+                                <input type="Submit" id="submitBtn11" class="login-form-container" placeholder="LOGIN" />
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <img src="slider_bg_2.jpg" class="p3-swiper-image" id="image2" />
+
+            <button id="prevBtn" onclick="changeImage(-1)">
+                <i class="fa-solid fa-arrow-left"></i>
+            </button>
+            <button id="nextBtn" onclick="changeImage(1)">
+                <i class="fa-solid fa-arrow-right"></i>
+            </button>
+        </div>
+
+        <!-- part - 4 About us -->
+        <h1 class="p4-head"><span class="pink">About </span><span class="blue"> Us</span></h1>
+        <div class="p4-container">
+            <div class="p4-column-container">
+                <div class="p4-boxHead">
+                    <img src="PROFILE_SKILLUP_LOGO-02.jpg" />
+                    <div class="p4-b-sH">skillupitacademy</div>
+                </div>
+                <div>We at SkillUp IT Academy ensure that students are not only
+                    getting trained, educated in IT subjects or programming languages but
+                    also getting skilled so that they can explore knowledge and create new
+                    opportunities, innovation in this competitive and dynamic world.
+                </div>
+                <div class="p4-boxBottom">
+                    <img src="PROFILE_SKILLUP_LOGO-02.jpg" />
+                    <div class="p4-b-sB">skillupitacademy</div>
+                </div>
+            </div>
+            <div class="p4-column-container">
+                <div class="p4-boxHead">
+                    <img src="PROFILE_SKILLUP_LOGO-02.jpg" />
+                    <div class="p4-b-sH">skillupitacademy</div>
+                </div>
+                <div>We at SkillUp IT Academy work on to build platform where skill and
+                    ability can match up to build bright future of current and future generations.
+                    We believe in training where we train students to explore knowledge rathar than
+                    settle on the existing skills they have.
+                </div>
+                <div class="p4-boxBottom">
+                    <img src="PROFILE_SKILLUP_LOGO-02.jpg" />
+                    <div class="p4-b-sB">skillupitacademy</div>
+                </div>
+            </div>
+            <div class="p4-column-container">
+                <div class="p4-boxHead">
+                    <img src="PROFILE_SKILLUP_LOGO-02.jpg" />
+                    <div class="p4-b-sH">skillupitacademy</div>
+                </div>
+                <div>Through our extensive feedback-oriented training, practice, assignments, projects
+                    we ensure to achieve our company's objectives, values, mission and belief towards
+                    kids, students, professionals who aim IT as their dream career and prospects.
+                </div>
+                <div class="p4-boxBottom">
+                    <img src="PROFILE_SKILLUP_LOGO-02.jpg" />
+                    <div class="p4-b-sB">skillupitacademy</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 5th part Our Modules-->
+        <h1 class="p5-head"><span class="pink">Our </span>Modules</h1>
+        <div class="p5-main-container">
+            <div class="p5-acontainer">
+                <div class="p5-container">
+                    <div class="p5-c-u">
+                        <img src="fundamental.jpg" />
+                        <div class="p5-c-u-logo">
+                            <i class="fa-solid fa-award"></i>
+                            <i class="fa-solid fa-book-bookmark"></i>
+                        </div>
+                    </div>
+                    <div class="p5-c-d">
+                        <div class="p5-c-d-feature">
+                            <div>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                            <div>FEATURED</div>
+                        </div>
+                        <div class="p5-stream">Any Stream</div>
+                        <div class="sub-head">Fundamental Module</div>
+                        <div class="p5-boxHead">
+                            <img src="PROFILE_SKILLUP_LOGO-02.jpg" />
+                            <div class="p5-BHC">skillupitacademy</div>
+                        </div>
+                        <div class="p5-c-d-core">
+                            Core programming
+                        </div>
+                    </div>
+                </div>
+                <div style="background-color:#7665ff" class="p5-2-container">
+                    <div style="background-color:#9184ff" class="p5-2-anystream">
+                        Any Stream
+                    </div>
+                    <div class="p5-2-head">
+                        Fundamental Module
+                    </div>
+                    <div class="p5-2-box">
+                        Success is the natural consequence of consistently
+                        applying the basic fundamentals.
+                    </div>
+                    <div class="p5-2-bottom-container">
+                        <div class="p5-2-stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <div class="login-container">
+                            FOR MORE DETAILS
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="p5-acontainer">
+                <div class="p5-container">
+                    <div class="p5-c-u">
+                        <img src="webdesign.jpg" />
+                        <div class="p5-c-u-logo">
+                            <i class="fa-solid fa-award"></i>
+                            <i class="fa-solid fa-book-bookmark"></i>
+                        </div>
+                    </div>
+                    <div class="p5-c-d">
+                        <div class="p5-c-d-feature">
+                            <div>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                            <div>FEATURED</div>
+                        </div>
+                        <div class="p5-stream">Any Stream</div>
+                        <div class="sub-head">Webdesign Module</div>
+                        <div class="p5-boxHead">
+                            <img src="PROFILE_SKILLUP_LOGO-02.jpg" />
+                            <div class="p5-BHC">skillupitacademy</div>
+                        </div>
+                        <div class="p5-c-d-core">
+                            Core Designing
+                        </div>
+                    </div>
+                </div>
+                <div style="background-color:#f5b016" class="p5-2-container">
+                    <div style="background-color:#f7c045" class="p5-2-anystream">
+                        Any Stream
+                    </div>
+                    <div class="p5-2-head">
+                        Fundamental Module
+                    </div>
+                    <div class="p5-2-box">
+                        Success is the natural consequence of consistently
+                        applying the basic fundamentals.
+                    </div>
+                    <div class="p5-2-bottom-container">
+                        <div class="p5-2-stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <div class="login-container">
+                            FOR MORE DETAILS
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="p5-acontainer">
+                <div class="p5-container">
+                    <div class="p5-c-u">
+                        <img src="bussiness.jpg" />
+                        <div class="p5-c-u-logo">
+                            <i class="fa-solid fa-award"></i>
+                            <i class="fa-solid fa-book-bookmark"></i>
+                        </div>
+                    </div>
+                    <div class="p5-c-d">
+                        <div class="p5-c-d-feature">
+                            <div>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                            <div>FEATURED</div>
+                        </div>
+                        <div class="p5-stream">Any Stream</div>
+                        <div class="sub-head">Business Module</div>
+                        <div class="p5-boxHead">
+                            <img src="PROFILE_SKILLUP_LOGO-02.jpg" />
+                            <div class="p5-BHC">skillupitacademy</div>
+                        </div>
+                        <div class="p5-c-d-core">
+                            Business Module
+                        </div>
+                    </div>
+                </div>
+                <div style="background-color:#f20f10" class="p5-2-container">
+                    <div style="background-color:#f53f40" class="p5-2-anystream">
+                        Any Stream
+                    </div>
+                    <div class="p5-2-head">
+                        Fundamental Module
+                    </div>
+                    <div class="p5-2-box">
+                        Success is the natural consequence of consistently
+                        applying the basic fundamentals.
+                    </div>
+                    <div class="p5-2-bottom-container">
+                        <div class="p5-2-stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <div class="login-container">
+                            FOR MORE DETAILS
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 6th Module -->
+        <div class="p6-container">
+            <div class="p6-head">
+                Start a Journey. Enroll Now.
+            </div>
+            <div class="p6-subHead">
+                LEARN SOMETHING WHEREVER YOU ARE
+            </div>
+            <div class="login-container">
+                JOIN A COURSE NOW
+            </div>
+        </div>
+
+        <!-- 7th Module -->
+        <h1 class="p5-head"><span class="pink">Our </span>Modules</h1>
+        <div class="p5-main-container">
+            <div class="p5-acontainer">
+                <div class="p5-container">
+                    <div class="p5-c-u">
+                        <img src="fundamental.jpg" />
+                        <div class="p5-c-u-logo">
+                            <i class="fa-solid fa-award"></i>
+                            <i class="fa-solid fa-book-bookmark"></i>
+                        </div>
+                    </div>
+                    <div class="p5-c-d">
+                        <div class="p5-c-d-feature">
+                            <div>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                            <div>FEATURED</div>
+                        </div>
+                        <div>Any Stream</div>
+                        <div class="sub-head">Placement Module</div>
+                        <div class="p5-boxHead">
+                            <img src="PROFILE_SKILLUP_LOGO-02.jpg" />
+                            <div class="p5-BHC">skillupitacademy</div>
+                        </div>
+                        <div class="p5-c-d-core">
+                            Core programming
+                        </div>
+                    </div>
+                </div>
+                <div style="background-color:#7665ff" class="p5-2-container">
+                    <div style="background-color:#9184ff" class="p5-2-anystream">
+                        Any Stream
+                    </div>
+                    <div class="p5-2-head">
+                        Placement Module
+                    </div>
+                    <div class="p5-2-box">
+                        Success is the natural consequence of consistently
+                        applying the basic fundamentals.
+                    </div>
+                    <div class="p5-2-bottom-container">
+                        <div class="p5-2-stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <div class="login-container">
+                            FOR MORE DETAILS
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="p5-acontainer">
+                <div class="p5-container">
+                    <div class="p5-c-u">
+                        <img src="webdesign.jpg" />
+                        <div class="p5-c-u-logo">
+                            <i class="fa-solid fa-award"></i>
+                            <i class="fa-solid fa-book-bookmark"></i>
+                        </div>
+                    </div>
+                    <div class="p5-c-d">
+                        <div class="p5-c-d-feature">
+                            <div>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                            <div>FEATURED</div>
+                        </div>
+                        <div>Any Stream</div>
+                        <div class="sub-head">Infrastructure Module</div>
+                        <div class="p5-boxHead">
+                            <img src="PROFILE_SKILLUP_LOGO-02.jpg" />
+                            <div class="p5-BHC">skillupitacademy</div>
+                        </div>
+                        <div class="p5-c-d-core">
+                            Core Designing
+                        </div>
+                    </div>
+                </div>
+                <div style="background-color:#f20f10" class="p5-2-container">
+                    <div style="background-color:#f53f40" class="p5-2-anystream">
+                        Any Stream
+                    </div>
+                    <div class="p5-2-head">
+                        Infrastructure Module
+                    </div>
+                    <div class="p5-2-box">
+                        What separates design from art is that design is
+                        meant to be function......
+                    </div>
+                    <div class="p5-2-bottom-container">
+                        <div class="p5-2-stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <div class="login-container">
+                            FOR MORE DETAILS
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="p5-acontainer">
+                <div class="p5-container">
+                    <div class="p5-c-u">
+                        <img src="bussiness.jpg" />
+                        <div class="p5-c-u-logo">
+                            <i class="fa-solid fa-award"></i>
+                            <i class="fa-solid fa-book-bookmark"></i>
+                        </div>
+                    </div>
+                    <div class="p5-c-d">
+                        <div class="p5-c-d-feature">
+                            <div>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                            <div>FEATURED</div>
+                        </div>
+                        <div>Any Stream</div>
+                        <div class="sub-head">Business Module</div>
+                        <div class="p5-boxHead">
+                            <img src="PROFILE_SKILLUP_LOGO-02.jpg" />
+                            <div class="p5-BHC">skillupitacademy</div>
+                        </div>
+                        <div class="p5-c-d-core">
+                            Business Module
+                        </div>
+                    </div>
+                </div>
+                <div style="background-color:#f20f10" class="p5-2-container">
+                    <div style="background-color:#f53f40" class="p5-2-anystream">
+                        Any Stream
+                    </div>
+                    <div class="p5-2-head">
+                        Testing Module
+                    </div>
+                    <div class="p5-2-box">
+                        Excel at doing what your passion is and only focus
+                        on perfecting it.
+                    </div>
+                    <div class="p5-2-bottom-container">
+                        <div class="p5-2-stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <div class="login-container">
+                            FOR MORE DETAILS
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--8th modules-->
+        <div class="p8-container">
+            <div class="p8-counts">
+                <div class="p8-counts-1">
+                    <img src="counter_icon1.png" />
+                    <div class="p8-head">100+ Topics</div>
+                    <div class="grey">LEARN ANYTHING</div>
+                </div>
+                <div class="p8-counts-1">
+                    <img src="counter_icon2.png" />
+                    <div class="p8-head">1900+ Students</div>
+                    <div class="grey">FUTURE GENIUS</div>
+                </div>
+                <div class="p8-counts-1">
+                    <img src="counter_icon3.png" />
+                    <div class="p8-head">15900 Tests Taken</div>
+                    <div class="grey">THATS A LOT</div>
+                </div>
+                <div class="p8-counts-1">
+                    <img src="counter_icon4.png" />
+                    <div class="p8-head">10+ Instructors</div>
+                    <div class="grey">ALL TRAINED PROFESSIONALS</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 9th module -->
+        <div class="p6-container">
+            <div class="p6-head">
+                Learning Today. Leading Tomorrow. Enroll Now.
+            </div>
+            <div class="p6-subHead">
+                LEARN SOMETHING WHEREVER YOU ARE
+            </div>
+            <div class="login-container">
+                JOIN A COURSE NOW
+            </div>
+        </div>
+
+        <!-- 10th module -->
+        <h1 class="p5-head"><span class="pink">Our </span>Modules</h1>
+        <div class="p5-main-container">
+            <div class="p5-acontainer">
+                <div class="p5-container">
+                    <div class="p5-c-u">
+                        <img src="fundamental.jpg" />
+                        <div class="p5-c-u-logo">
+                            <i class="fa-solid fa-award"></i>
+                            <i class="fa-solid fa-book-bookmark"></i>
+                        </div>
+                    </div>
+                    <div class="p5-c-d">
+                        <div class="p5-c-d-feature">
+                            <div>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                            <div>FEATURED</div>
+                        </div>
+                        <div>Any Stream</div>
+                        <div class="sub-head">Placement Module</div>
+                        <div class="p5-boxHead">
+                            <img src="PROFILE_SKILLUP_LOGO-02.jpg" />
+                            <div class="p5-BHC">skillupitacademy</div>
+                        </div>
+                        <div class="p5-c-d-core">
+                            Core programming
+                        </div>
+                    </div>
+                </div>
+                <div style="background-color:#fd29c5" class="p5-2-container">
+                    <div style="background-color:#fd54d1" class="p5-2-anystream">
+                        Any Stream
+                    </div>
+                    <div class="p5-2-head">
+                        Placement Module
+                    </div>
+                    <div class="p5-2-box">
+                        Success is the natural consequence of consistently
+                        applying the basic fundamentals.
+                    </div>
+                    <div class="p5-2-bottom-container">
+                        <div class="p5-2-stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <div class="login-container">
+                            FOR MORE DETAILS
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="p5-acontainer">
+                <div class="p5-container">
+                    <div class="p5-c-u">
+                        <img src="webdesign.jpg" />
+                        <div class="p5-c-u-logo">
+                            <i class="fa-solid fa-award"></i>
+                            <i class="fa-solid fa-book-bookmark"></i>
+                        </div>
+                    </div>
+                    <div class="p5-c-d">
+                        <div class="p5-c-d-feature">
+                            <div>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                            <div>FEATURED</div>
+                        </div>
+                        <div>Any Stream</div>
+                        <div class="sub-head">Infrastructure Module</div>
+                        <div class="p5-boxHead">
+                            <img src="PROFILE_SKILLUP_LOGO-02.jpg" />
+                            <div class="p5-BHC">skillupitacademy</div>
+                        </div>
+                        <div class="p5-c-d-core">
+                            Core Designing
+                        </div>
+                    </div>
+                </div>
+                <div style="background-color:#0eb582" class="p5-2-container">
+                    <div style="background-color:#3ec49b" class="p5-2-anystream">
+                        Any Stream
+                    </div>
+                    <div class="p5-2-head">
+                        Infrastructure Module
+                    </div>
+                    <div class="p5-2-box">
+                        What separates design from art is that design is
+                        meant to be function......
+                    </div>
+                    <div class="p5-2-bottom-container">
+                        <div class="p5-2-stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <div class="login-container">
+                            FOR MORE DETAILS
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="p5-acontainer">
+                <div class="p5-container">
+                    <div class="p5-c-u">
+                        <img src="bussiness.jpg" />
+                        <div class="p5-c-u-logo">
+                            <i class="fa-solid fa-award"></i>
+                            <i class="fa-solid fa-book-bookmark"></i>
+                        </div>
+                    </div>
+                    <div class="p5-c-d">
+                        <div class="p5-c-d-feature">
+                            <div>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                            <div>FEATURED</div>
+                        </div>
+                        <div>Any Stream</div>
+                        <div class="sub-head">Business Module</div>
+                        <div class="p5-boxHead">
+                            <img src="PROFILE_SKILLUP_LOGO-02.jpg" />
+                            <div class="p5-BHC">skillupitacademy</div>
+                        </div>
+                        <div class="p5-c-d-core">
+                            Business Module
+                        </div>
+                    </div>
+                </div>
+                <div style="background-color:#7665ff" class="p5-2-container">
+                    <div style="background-color:#9184ff" class="p5-2-anystream">
+                        Any Stream
+                    </div>
+                    <div class="p5-2-head">
+                        Testing Module
+                    </div>
+                    <div class="p5-2-box">
+                        Excel at doing what your passion is and only focus
+                        on perfecting it.
+                    </div>
+                    <div class="p5-2-bottom-container">
+                        <div class="p5-2-stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <div class="login-container">
+                            FOR MORE DETAILS
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 11th module -->
+        <div style="background-color: #f6f2f2; margin-top:100px; margin-bottom:0" class="p6-container">
+            <div style="color:#233483" class="p6-head">
+                Learning Today. Leading Tomorrow. Enroll Now.
+            </div>
+            <div class="p6-subHead">
+                LEARN SOMETHING WHEREVER YOU ARE
+            </div>
+            <div class="login-container">
+                JOIN A COURSE NOW
+            </div>
+        </div>
+
+        <!--12th module-->
+        <div class="p12-container">
+            <div class="p12-Rcontainer">
+                <div class="p12-Ccontainer">
+                    <div class="p12-head">Popular Courses</div>
+                    <div class="p12-p">Full Stack Development</div>
+                    <div class="p12-p">Data Science</div>
+                    <div class="p12-p">Web APP</div>
+                    <div class="p12-p">APP Development</div>
+                    <div class="p12-p">Deep Learning</div>
+                    <div class="p12-p">Python</div>
+                </div>
+                <div class="p12-Ccontainer">
+                    <div class="p12-head">Quick Links</div>
+                    <!-- <div class="p12-p"> -->
+                    <div class="p12-p">Placement Modules</div>
+                    <div class="p12-p">Business Modules</div>
+                    <div class="p12-p">Web Designing Modules</div>
+                    <div class="p12-p">Cyber Security Modules</div>
+                    <div class="p12-p">Bitcoin Modules</div>
+                    <div class="p12-p">Cryptocurrency Modules</div>
+                    <div class="p12-p">Ethical Hacking Modules</div>
+                    <!-- </div> -->
+                </div>
+                <div class="p12-Ccontainer">
+                    <div class="p12-head">Contact Us</div>
+                    <div class="p12-p1"> <i class="fa-solid fa-phone"></i> 7208581498</div>
+                    <div class="p12-p1"><i class="fa-solid fa-envelope"></i>info@skillupitacademy.com</div>
+                    <div class="p12-p1"><i class="fa-solid fa-location-dot"></i>807 Time Chambers S.V. ROAD Andheri(W)
+                    </div>
+                    <div class="p12-p1"><i class="fa-solid fa-location-dot"></i>B-205 2nd Flr, Neelyog Square GhatKoper
+                        (E)</div>
+                </div>
+            </div>
+            <div id="bottom" class="p12-bottom">
+                SkillUp IT Academy All Rights Reserved 11256
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
